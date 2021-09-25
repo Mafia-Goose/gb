@@ -211,6 +211,30 @@
 	    <p>Looking for more? More games are coming soon! - NabilAFK© 2021 </p>
 		    
             <script defer src="assets/js/main.js" type="d4a0fe0d9deda0953774a9f0-text/javascript"></script>
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+document.onkeydown = function(e) {
+        if (e.ctrlKey && 
+            (e.keyCode === 67 || 
+             e.keyCode === 86 || 
+             e.keyCode === 85 || 
+             e.keyCode === 117)) {
+            return false;
+        } else {
+            return true;
+        }
+};
+$(document).keypress("u",function(e) {
+  if(e.ctrlKey)
+  {
+return false;
+}
+else
+{
+return true;
+}
+});
+</script> 
     </body>
 </html>
 
