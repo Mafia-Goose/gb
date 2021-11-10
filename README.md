@@ -1,5 +1,5 @@
-# Nabil's GameBoy
-- Cool little website where you can play retro games!
+# Update
+- Nabils games got blocked so I made this.
 
 ## Features
 - Unblocked on ALL school chromebooks.
